@@ -6,7 +6,6 @@ x = np.linspace(-10, 10, 400)
 # y = np.sin(x)
 y = x**2 * np.sin(x)
 
-
 plt.plot(x, y)
 plt.title("Графік f(x) = x^2 * sin(x)")
 plt.xlabel("x")
